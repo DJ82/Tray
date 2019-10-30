@@ -1,13 +1,13 @@
-===============================================
+==================================
 The following text outlines instructions related to the Tray Technical Assessment:
-===============================================
+==================================
 
 
 NOTES:
-• The program is named: "tray-hoover.js" 
-• The program runs on NodeJS v4.4.1 and later
-• There are no external libraries used
-• There are 3 folders in the directory used for testing. Each test folder contains 2 files:
+1. The program is named: "tray-hoover.js" 
+2. The program runs on NodeJS v4.4.1 and later
+3. There are no external libraries used
+4. There are 3 folders in the directory used for testing. Each test folder contains 2 files:
 	1. Source code file ("tray-hoover.js")
 	2. Data input file ("input.txt")
 
@@ -24,18 +24,23 @@ TO RUN THE PROGRAM:
 	node tray-hoover.js
 
 
-OTHER NOTES:
-- The source code file includes comments which describe what each line of code accomplishes
-- There are extra 'console.log' statements which have been commented out within the if-statement block. If you wish to view this additional information, please un-comment these then rerun the program, and the console will log output information for how the hoover is processing the instructions. (The logs have been commented-out in order to preserve the stdout expected output)
+OTHER NOTES: 
+
+• The source code file includes comments which describe what each line of code accomplishes 
+
+• There are extra 'console.log' statements which have been commented out within the if-statement block. If you wish to view this additional information, please un-comment these then rerun the program, and the console will log output information for how the hoover is processing the instructions. (The logs have been commented-out in order to preserve the stdout expected output)
 
 
-EXPECTED OUTPUT:
-The Expected Output in the console will display 2 lines of data:
-	• Line1: X and Y coordinates marking the final position of the hoover after following all navigational commands
+EXPECTED OUTPUT:  
+The Expected Output in the console will display 2 lines of data: 
+
+	• Line1: X and Y coordinates marking the final position of the hoover after following all navigational commands 
+	
 	• Line2: Number count of patches of dirt which were cleaned
 
 
 TEST RESULTS: 
+
 	Expected OUTPUT for Test1:
 		1 3
 		1
