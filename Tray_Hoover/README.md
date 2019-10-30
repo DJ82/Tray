@@ -1,4 +1,3 @@
-==================================
 The following text outlines instructions related to the Tray Technical Assessment:
 ==================================
 
